@@ -5,13 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practical-6</title>
     <style>
+        body
+        {
+            background-color: lightgray;
+        }
         h1
         {
             color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .card
+        {
+            background-color: white;
+            width: 280px;
+            height: 430px;
+            border-radius: 10px;
+            margin: 20px 15px 20px 35px;
+            float: left;
+            box-shadow: grey 2px 2px 2px 2px;
+        }
+        .card a
+        {
+            display: block;
+            width: 240px;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: red;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+        .card a:hover
+        {
+            background-color: blue;
+        }
+        .card img
+        {
+            margin: 12px 10px 0px;
+            border-radius: 10px;
+            height: 185px;
+            width: 260px;
+        }
+        .card h3
+        {
+            margin: 10px 10px;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .card p
+        {
+            text-align: justify;
+            margin-left: 20px;
+            margin-right: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
     </style>
 </head>
 <body>
-    <h1>CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES.</h1>
+    <h1>PRACTICAL-6: CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES.</h1>
+    <div class="card">
+        <img src="../img/html.png" alt="Introduction to HTML">
+        <h3>Introduction to HTML</h3>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quia blanditiis iusto corporis fugit ab quis quos necessitatibus asperiores voluptates.
+        </p>
+        <a href="Practical5-html.html" target="_blank">Read More</a>
+    </div>
+    <div class="card">
+        <img src="../img/css.jpg" alt="Introduction to CSS">
+        <h3>Introduction to CSS</h3>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quia blanditiis iusto corporis fugit ab quis quos necessitatibus asperiores voluptates.
+        </p>
+        <a href="Practical5-css.html" target="_blank">Read More</a>
+    </div>
+    <div class="card">
+        <img src="../img/javascript.jpg" alt="Introduction to JavaScript">
+        <h3>Introduction to JavaScript</h3>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quia blanditiis iusto corporis fugit ab quis quos necessitatibus asperiores voluptates.
+        </p>
+        <a href="Practical5-js.html" target="_blank">Read More</a>
+    </div>
+    <div class="card">
+        <img src="../img/bootstrap.png" alt="Introduction to Bootstrap">
+        <h3>Introduction to Bootstrap</h3>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quia blanditiis iusto corporis fugit ab quis quos necessitatibus asperiores voluptates.
+        </p>
+        <a href="Practical5-bootstrap.html" target="_blank">Read More</a>
+    </div>
 </body>
 </html>
