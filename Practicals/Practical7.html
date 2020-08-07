@@ -4,10 +4,199 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practical-7</title>
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        h1{
+            text-align: center;
+        }
+        #container
+        {
+            background-color: white;
+            width: 100vw;
+            padding: 10px;
+        }
+        #header
+        {
+            background-color: gray;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            width: 100%;
+            height: 70px;
+            margin-bottom: 15px;
+        }
+        #banner
+        {
+            background-color: skyblue;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            width: 100vw;
+            height: 100vh;
+            margin-bottom: 15px;
+            font-size: 30px;
+        }
+        #section1::after
+        {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        #card1
+        {
+            width: 240px;
+            height: 240px;
+            background: darkgoldenrod;
+            border-radius: 50%;
+            float: left;
+            margin: 15px 0px 15px 70px;
+        }
+        #section2
+        {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+        #section2
+        {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        #leftSideBar
+        {
+            background-color: grey;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            width: 49%;
+            height: 300px;
+            margin-bottom: 15px;
+            float: left;
+            order: 1;
+            margin-top: 15px;
+        }
+        #rightSideBar
+        {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            width: 50%;
+            height: 300px;
+            margin-bottom: 15px;
+            margin-left: 10px;
+            float: right;
+            order: 2;
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+        #artical1
+        {
+            background-color: #bf360c;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            margin-bottom: 10px;
+            width: 100%;
+            height: 150px;
+        }
+        #artical2
+        {
+            background-color: #bf360c;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            margin-bottom: 10px;
+            width: 100%;
+            height: 150px;
+        }
+        #artical3
+        {
+            background-color: #bf360c;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            width: 100%;
+            height: 150px;
+        }
+        #section3::after
+        {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        #card2
+        {
+            width: 240px;
+            height: 280px;
+            background: #e65100;
+            float: left;
+            margin: 15px 0px 15px 70px;
+        }
+        #footer
+        {
+            background-color: plum;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            width: 100%;
+            height: 70px;
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
     <div id="container">
-        
+        <div id="header">Header</div>
+        <div id="banner">Banner</div>
+        <div id="section1">
+            <h1>Section-1</h1>
+            <div id="card1"></div>
+            <div id="card1"></div>
+            <div id="card1"></div>
+            <div id="card1"></div>
+        </div>
+        <div id="section2">
+            <h1>Section-2</h1>
+            <div id="leftSideBar">Main Content</div>
+            <div id="rightSideBar">
+                <div id="artical1">Artical-1</div>
+                <div id="artical2">Artical-2</div>
+                <div id="artical3">Artical-3</div>
+            </div>
+        </div>
+        <div id="section3">
+            <h1>Section-3</h1>
+            <div id="card2"></div>
+            <div id="card2"></div>
+            <div id="card2"></div>
+            <div id="card2"></div>
+        </div>
+        <div id="section4">
+            <h1>Section-4</h1>
+            <div id="footer">Footer</div>
+        </div>
     </div>    
 </body>
 </html>
