@@ -18,14 +18,16 @@
             scroll-padding-top: 80px;
         }
         
-        @media(min-width: 801px) {
+        #container {
+            background-color: white;
+            width: 100vw;
+        }
+        /* Breakpoint-1 : Above 1200px */
+        
+        @media(min-width: 1200px) {
             h1 {
                 text-align: center;
                 font-size: 40px;
-            }
-            #container {
-                background-color: white;
-                width: 100vw;
             }
             #header {
                 font-size: 40px;
@@ -52,7 +54,7 @@
                 color: white;
             }
             #navitem1 {
-                margin: 0px 5px 0px 610px;
+                margin: 0px 5px 0px 1000px;
             }
             .navitem2 {
                 margin: 0px 5px 0px;
@@ -113,7 +115,230 @@
                 height: 240px;
                 border-radius: 50%;
                 float: left;
-                margin: 15px 40px 15px;
+                margin: 15px 20px 15px;
+            }
+            .card1 img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+            }
+            #section2 {
+                width: 100%;
+            }
+            #section2::after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+            #leftSideBar {
+                background-color: grey;
+                color: white;
+                width: 49%;
+                height: 480px;
+                float: left;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            #leftSideBar h2 {
+                margin-left: 10px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 30px;
+            }
+            #leftSideBar p {
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 10px;
+                font-size: 15px;
+                text-align: justify;
+            }
+            #rightSideBar {
+                color: white;
+                font-size: 30px;
+                width: 49%;
+                height: 480px;
+                float: right;
+                margin-top: 15px;
+            }
+            .artical {
+                margin-bottom: 15px;
+                width: 100%;
+                height: 150px;
+                position: relative;
+            }
+            #rightSideBar .artical img {
+                width: 100%;
+                height: 100%;
+            }
+            #rightSideBar .artical h3 {
+                z-index: 1;
+                position: absolute;
+                left: 198px;
+                top: 5px;
+                font-size: 25px;
+                color: black;
+            }
+            #section3::after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+            #square-container {
+                margin: 15px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-content: center;
+                flex-wrap: wrap;
+            }
+            .card2 {
+                width: 250px;
+                height: 430px;
+                float: left;
+                margin: 15px 15px 15px;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: grey 2px 2px 2px 2px;
+            }
+            .card2 a {
+                display: block;
+                width: 230px;
+                padding: 10px;
+                margin-top: 10px;
+                background-color: red;
+                color: white;
+                text-align: center;
+                border-radius: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            .card2 a:hover {
+                background-color: blue;
+            }
+            .card2 img {
+                margin: 10px;
+                border-radius: 10px;
+                height: 180px;
+                width: 230px;
+            }
+            .card2 h3 {
+                margin: 10px 10px;
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .card2 p {
+                text-align: justify;
+                margin-left: 20px;
+                margin-right: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            #footer {
+                background-color: plum;
+                color: black;
+                font-size: 25px;
+                width: 100%;
+                height: 70px;
+                margin-top: 15px;
+                text-align: center;
+                padding: 10px 0px;
+            }
+        }
+        /* Breakpoint-2 : 850px - 1199px */
+        
+        @media(min-width: 850px) and (max-width: 1199px) {
+            h1 {
+                text-align: center;
+                font-size: 40px;
+            }
+            #header {
+                font-size: 40px;
+                font-family: Arial, Helvetica, sans-serif;
+                width: 100%;
+                margin-bottom: 80px;
+            }
+            #nav {
+                width: 100%;
+                height: 60px;
+                list-style: none;
+                overflow: hidden;
+                background-color: grey;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                position: fixed;
+                top: 0px;
+                z-index: 5;
+            }
+            a i {
+                font-size: 20px;
+                margin-right: 5px;
+                color: white;
+            }
+            #navitem1 {
+                margin-left: 100px;
+            }
+            .navitem2 {
+                margin: 0px;
+            }
+            #nav li a {
+                text-align: center;
+                display: block;
+                font-size: 20px;
+                text-decoration: none;
+                color: white;
+                padding: 15px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            #nav li a:hover {
+                background-color: white;
+                color: black;
+            }
+            #nav li a:hover i {
+                background-color: white;
+                color: black;
+            }
+            #banner {
+                width: 100%;
+                height: 100vh;
+                margin-bottom: 15px;
+                position: relative;
+            }
+            #banner img {
+                width: 100%;
+                height: 100%;
+            }
+            #banner h1 {
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                position: absolute;
+                margin-top: 40px;
+                margin-left: 40px;
+                z-index: 1;
+                font-size: 50px;
+            }
+            #section1::after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+            #circle-container {
+                margin: 15px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-content: center;
+                flex-wrap: wrap;
+            }
+            .card1 {
+                width: 220px;
+                height: 220px;
+                border-radius: 50%;
+                float: left;
+                margin: 15px 90px 15px 90px;
             }
             .card1 img {
                 width: 100%;
@@ -147,7 +372,7 @@
                 margin-left: 10px;
                 margin-right: 10px;
                 margin-top: 10px;
-                font-size: 20px;
+                font-size: 14px;
                 text-align: justify;
             }
             #rightSideBar {
@@ -169,10 +394,11 @@
                 height: 100%;
             }
             #rightSideBar .artical h3 {
-                left: 330px;
                 z-index: 1;
                 position: absolute;
-                font-size: 25px;
+                left: 214px;
+                top: 5px;
+                font-size: 20px;
                 color: black;
             }
             #section3::after {
@@ -192,7 +418,7 @@
                 width: 280px;
                 height: 410px;
                 float: left;
-                margin: 15px 40px 15px;
+                margin: 15px 60px 15px 60px;
                 background-color: white;
                 border-radius: 10px;
                 box-shadow: grey 2px 2px 2px 2px;
