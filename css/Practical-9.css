@@ -716,6 +716,7 @@
             .card2 h3 {
                 margin: 10px 10px;
                 text-align: center;
+                height: 41.6px;
                 font-family: Georgia, 'Times New Roman', Times, serif;
             }
             .card2 p {
@@ -723,6 +724,7 @@
                 margin-left: 20px;
                 margin-right: 20px;
                 font-size: 12px;
+                overflow: auto;
                 font-family: Georgia, 'Times New Roman', Times, serif;
             }
             #footer {
