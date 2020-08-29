@@ -163,9 +163,9 @@ i {
 }
 
 
-/* Breakpoint-3 : Below 450 px */
+/* Breakpoint-3 : Below 500 px */
 
-@media(max-width:450px) {
+@media(max-width:500px) {
     #content img {
         width: 100%;
         height: 250px;
