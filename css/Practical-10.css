@@ -58,7 +58,6 @@
     width: 20%;
     left: -100%;
     transition: .7s;
-    scroll-behavior: smooth;
 }
 
 #sidebar ul {
