@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table {
+    margin: 30px auto;
+    border: 6px solid indigo;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-collapse: collapse;
+    min-width: 300px;
+}
+
+caption {
+    border: 2px solid indigo;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: indigo;
+}
+
+th {
+    border-bottom: 5px solid grey;
+    padding: 10px;
+    font-size: 22px;
+    background-color: #00e5ff;
+}
+
+tr {
+    background-color: lightblue;
+}
+
+tbody tr:hover {
+    background-color: #e1f5fe;
+}
+
+td {
+    padding: 10px;
+    font-size: 20px;
+    margin: 0px 10px;
+    border-bottom: 4px solid #bdbdbd;
+}
+
+td a {
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a:hover {
+    color: brown;
+    transition: .2s;
+}
+
+.checked {
+    color: green;
+}
+
+.unchecked {
+    color: red;
+}
+
+i {
+    color: gray;
+    margin: 0px 4px;
+}
+
+.fa-pencil:hover {
+    color: blue;
+    transition: .2s;
+}
+
+.fa-trash:hover {
+    color: red;
+    transition: .2s;
+}
