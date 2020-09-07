@@ -63,23 +63,20 @@ tbody tr:nth-child(odd) {
     background-color: #edf3e2;
 }
 
-tfoot {
-    height: 70px;
-}
-
-tfoot tr td {
-    line-height: 70px;
+tfoot tr {
+    line-height: 60px;
 }
 
 tfoot a {
     color: white;
     text-decoration: none;
     background-color: purple;
-    font-size: 9px;
+    font-size: 10px;
     font-weight: bold;
-    padding: 14px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px #6a1b9a;
+    vertical-align: middle;
 }
 
 tfoot a:hover {
