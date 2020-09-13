@@ -6,12 +6,12 @@
 
 body {
     padding: 15px;
+    min-width: 425px;
 }
 
 footer {
     background-color: #26272b;
     width: 100%;
-    min-width: 425px;
     height: 100%;
 }
 
@@ -180,17 +180,21 @@ ul {
 
 ul li {
     display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
 }
 
 .icons a {
     display: block;
-    border-radius: 50%;
     background-color: #9e9e9e;
-    width: 60px;
-    height: 60px;
     margin: 10px;
     text-align: center;
     color: grey;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 
 .icons a i {
@@ -198,35 +202,35 @@ ul li {
     line-height: 60px;
 }
 
-.icons li a:hover:nth-child(1) {
+.icons li:hover:nth-child(1) a {
     background-color: #3b5999;
     color: white;
     box-shadow: #212121 2px 2px 5px 5px;
     transition: .3s;
 }
 
-.icons li a:hover:nth-child(2) {
+.icons li:hover:nth-child(2) a {
     background-color: #55acee;
     color: white;
     box-shadow: #212121 2px 2px 5px 5px;
     transition: .3s;
 }
 
-.icons li a:hover:nth-child(3) {
+.icons li:hover:nth-child(3) a {
     background-color: #dd4b39;
     color: white;
     box-shadow: #212121 2px 2px 5px 5px;
     transition: .3s;
 }
 
-.icons li a:hover:nth-child(4) {
+.icons li:hover:nth-child(4) a {
     background-color: #0077B5;
     color: white;
     box-shadow: #212121 2px 2px 5px 5px;
     transition: .3s;
 }
 
-.icons li a:hover:nth-child(5) {
+.icons li:hover:nth-child(5) a {
     background-color: #ea4c89;
     color: white;
     box-shadow: #212121 2px 2px 5px 5px;
@@ -318,6 +322,9 @@ ul li {
 /* Breakpoint-3 : Below 490 px */
 
 @media(max-width:490px) {
+    /* .content {
+        font-size: 12px;
+    }*/
     .leftContent {
         width: 100%;
     }
