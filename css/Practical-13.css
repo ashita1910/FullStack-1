@@ -315,9 +315,9 @@ ul li {
 }
 
 
-/* Breakpoint-3 : Below 545 px */
+/* Breakpoint-3 : Below 490 px */
 
-@media(max-width:545px) {
+@media(max-width:490px) {
     .leftContent {
         width: 100%;
     }
