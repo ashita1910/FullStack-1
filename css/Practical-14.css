@@ -100,24 +100,26 @@ a {
     border-radius: 14px;
     margin: 0px 15px;
     color: blue;
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
     line-height: 25px;
     padding: 12px;
 }
 
-.fa-facebook:hover,
-.form_3 .icons a i:hover,
+.form_1 .icons a .fa-facebook:hover,
+.form_2 .icons a .fa-facebook:hover,
 .form_3 .icons a .fa-facebook:hover {
     color: #3b5998;
 }
 
-.fa-twitter:hover,
+.form_1 .icons a .fa-twitter:hover,
+.form_2 .icons a .fa-twitter:hover,
 .form_3 .icons a .fa-twitter:hover {
     color: #00aced;
 }
 
-.fa-google-plus:hover,
+.form_1 .icons a .fa-google-plus:hover,
+.form_2 .icons a .fa-google-plus:hover,
 .form_3 .icons a .fa-google-plus:hover {
     color: #dd4b39;
 }
