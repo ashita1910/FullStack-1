@@ -234,14 +234,14 @@ input[type="password"] {
 
 .form_1 .submit_form p {
     text-align: right;
-    margin: 15px 25px;
+    margin: 25px;
     line-height: 40px;
     font-size: 16px;
 }
 
 .form_2 .submit_form p {
     text-align: right;
-    margin: 15px 25px;
+    margin: 25px;
     line-height: 40px;
     font-size: 16px;
 }
@@ -260,14 +260,22 @@ input[type="password"] {
     h1 {
         font-size: 35px;
     }
-    .form_1 .login_input p,
-    .form_2 .login_input p {
+    .form_1 .login_input p {
         text-align: center;
+        font-size: 15px;
+    }
+    .form_2 input[type="checkbox"] {
+        margin: 15px 0px 15px 10px;
+    }
+    .form_2 label {
+        font-size: 15px;
     }
     .form_1 .submit_form p,
     .form_2 .submit_form p {
-        width: 80%;
+        width: 100%;
         text-align: center;
+        font-size: 15px;
+        margin: 10px auto;
     }
     .form_1 .button,
     .form_2 .button {
@@ -275,9 +283,6 @@ input[type="password"] {
         float: unset;
         margin: 0px auto;
         display: block;
-    }
-    .form_2 .icon_box {
-        margin-top: 83px;
     }
     .form_3 .icons a i {
         width: 40px;
