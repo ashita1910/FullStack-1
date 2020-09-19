@@ -26,9 +26,8 @@ article {
 }
 
 section {
-    float: left;
     border-radius: 6px;
-    box-shadow: 2px 2px 2px 2px lightgrey;
+    box-shadow: 2px 2px 4px 4px lightgrey;
     width: 400px;
     height: 460px;
     background-color: white;
@@ -60,10 +59,21 @@ section {
     background-image: linear-gradient(to right, yellow, orange, red);
 }
 
+section {
+    position: relative;
+}
+
 .form_2 .icon_box {
     background-color: rgba(130, 132, 211, 0.548);
-    margin-top: 128px;
-    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.form_3 .icon_box {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 .icon_box .icons {
@@ -72,61 +82,59 @@ section {
     align-items: center;
     flex-wrap: wrap;
     height: auto;
-    margin-bottom: 5px;
 }
 
 a {
     display: block;
 }
 
-.form_1 .icons i {
+.form_1 i {
     color: white;
     margin: 10px;
     padding: 12px;
     font-size: 25px;
 }
 
-.form_2 .icons a i {
+.form_2 i {
     font-size: 25px;
     color: white;
     margin: 10px;
     padding: 12px;
 }
 
-.form_3 .icons a i {
+.form_3 i {
     width: 60px;
     height: 25px;
     box-shadow: 2px 2px 6px skyblue;
     border-radius: 14px;
-    margin: 0px 15px;
+    margin: 20px 15px;
     color: blue;
-    font-size: 23px;
+    font-size: 25px;
     text-align: center;
     line-height: 25px;
     padding: 12px;
 }
 
-.form_1 .icons a .fa-facebook:hover,
-.form_2 .icons a .fa-facebook:hover,
-.form_3 .icons a .fa-facebook:hover {
+.fa-facebook:hover {
     color: #3b5998;
 }
 
-.form_1 .icons a .fa-twitter:hover,
-.form_2 .icons a .fa-twitter:hover,
-.form_3 .icons a .fa-twitter:hover {
+.fa-twitter:hover {
     color: #00aced;
 }
 
-.form_1 .icons a .fa-google-plus:hover,
-.form_2 .icons a .fa-google-plus:hover,
-.form_3 .icons a .fa-google-plus:hover {
+.fa-google-plus:hover {
     color: #dd4b39;
 }
 
-.login_input {
+.form_1 .login_input {
     padding: 15px;
     margin-top: 20px;
+}
+
+.login_input {
+    padding: 15px 20px;
+    margin-top: 10px;
 }
 
 input[type="email"],
@@ -141,7 +149,16 @@ input[type="password"] {
     padding-bottom: 12px;
 }
 
-.form_1 .login_input p {
+.form_2 input[type="checkbox"] {
+    margin: 18px 0px 18px 30px;
+}
+
+.form_2 label {
+    margin: 0px 20px;
+}
+
+.form_1 .login_input p,
+.form_3 .login_input p {
     text-align: right;
     margin: 25px;
     font-size: 16px;
@@ -162,6 +179,9 @@ input[type="password"] {
     padding: 12px;
     float: left;
     margin-left: 35px;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 2px 2px grey;
 }
 
 .form_2 .button {
@@ -169,11 +189,14 @@ input[type="password"] {
     color: white;
     background-color: palevioletred;
     width: 100px;
-    height: 20px;
+    height: 40px;
     padding: 12px;
     float: left;
     margin-left: 35px;
     text-align: center;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgba(194, 89, 124, 0.918);
 }
 
 .form_3 .button {
@@ -181,12 +204,15 @@ input[type="password"] {
     color: white;
     background-image: linear-gradient(to right, skyblue, blue);
     width: 80%;
-    height: 20px;
+    height: 45px;
     padding: 12px;
     text-align: center;
     display: block;
     margin: 0px auto;
     font-size: 18sp;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 2px 2px blue;
 }
 
 .form_1 .button:hover {
@@ -197,11 +223,13 @@ input[type="password"] {
 .form_2 .button:hover {
     background-color: blue;
     color: yellow;
+    box-shadow: 2px 2px 2px 2px rgba(75, 117, 194, 0.863);
 }
 
 .form_3 .button:hover {
     background-image: linear-gradient(to right, pink, red);
     color: black;
+    box-shadow: 1px 1px 2px 2px palevioletred;
 }
 
 .form_1 .submit_form p {
@@ -220,7 +248,7 @@ input[type="password"] {
 
 .form_3 .submit_form p {
     text-align: center;
-    margin: 15px;
+    margin: 10px auto 20px;
     line-height: 40px;
     font-size: 16px;
 }
