@@ -53,3 +53,7 @@ function checkDelete(e) {
     }
 
 }
+
+//Function Calls
+create();
+checkDelete();
