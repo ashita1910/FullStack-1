@@ -11,6 +11,7 @@ body {
     justify-content: center;
     background-color: darkslateblue;
     font-family: 'Open Sans', sans-serif;
+    min-width: 500px;
 }
 
 .container {
@@ -21,7 +22,8 @@ body {
     height: 700px;
     border-radius: 5px;
     background-color: white;
-    margin-top: 80px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     position: relative;
     overflow: hidden;
 }
