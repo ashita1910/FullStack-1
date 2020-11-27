@@ -106,7 +106,7 @@ function isAddressValid(linkedin, github, facebook) {
         showError(linkedin, "Field can not be Blank");
         bool = false;
     } else if (!isEmailValid(linkedinValue)) {
-        showError(email, "Email Address is not valid");
+        showError(linkedin, "Email Address is not valid");
         bool = false;
     } else {
         showSuccess(linkedin);
