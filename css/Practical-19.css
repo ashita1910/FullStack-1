@@ -42,9 +42,13 @@
         left: -525px;
     }
     
+    .form-container {
+        position: relative;
+    }
+    
     .form-container i {
         position: absolute;
-        top: 90px;
+        top: 20px;
         right: 20px;
         font-size: 20px;
         visibility: hidden;
@@ -53,7 +57,7 @@
     .form-container small {
         position: absolute;
         left: 5px;
-        top: 132px;
+        top: 60px;
         font-size: 16px;
         margin-top: 5px;
         visibility: hidden;
